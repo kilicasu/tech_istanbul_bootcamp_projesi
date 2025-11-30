@@ -6,7 +6,7 @@ import validators
 app = Flask(__name__)
 
 # Database ayarları
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////Users/asuma/Desktop/TechIstanbulProje/ShortUrl/urlshortener.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///C:/Users/asuma/Desktop/Tech_Istanbul_Bootcamp_Projesi/ShortUrl/urlshortener.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.secret_key = "gizli-key"
 
